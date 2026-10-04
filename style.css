@@ -5,3 +5,67 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+}
+
+.container {
+    width: 80%;
+}
+
+h1 {
+    text-align: center;
+    padding: 2rem;
+    background-color: hsla(0, 0%, 100%, 0.3);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+p {
+    text-align: center;
+    padding: 1rem;
+}
+
+button {
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    border: none;
+    background-color: hsla(0, 0%, 100%, 0.3);
+    font-size: 1rem;
+    margin: 3rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 200px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+/* div {
+    border: 1px solid black;
+} */
+
+#light-mode {
+    background-color: powderblue;
+    color: black;
+}

@@ -63,27 +63,12 @@ img {
 
 /* light mode styling */
 
-/* .light-mode {
+.light-mode {
     background-color: powderblue;
     color: black;
-} */
-
-/* #light-mode-img{
-    box-shadow: 0 0 20px white;
-} */
-
-/* dark mode styling */
-
-.dark-mode{
-    background: url('images/dark\ theme\ bg.avif');
-    color: white;
 }
 
-.dark-mode-btn{
-    color: white;
-}
-
-#dark-mode-img{
+#light-mode-img{
     box-shadow: 0 0 20px white;
 }
 

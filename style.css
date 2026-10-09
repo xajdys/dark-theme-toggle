@@ -42,6 +42,7 @@ button {
 
 button:hover {
     cursor: pointer;
+    border: 0.5px solid hsl(0, 0%, 90%);
 }
 
 .button {
@@ -52,7 +53,6 @@ button:hover {
 img {
     width: 200px;
     border-radius: 20px;
-    box-shadow: 0 0 20px rgba(103, 5, 125, 0.5);
 }
 
 .image {
@@ -61,17 +61,34 @@ img {
     gap: 2rem;
 }
 
-/* div {
-    border: 1px solid black;
-} */
+/* light mode styling */
 
-.light-mode {
+/* .light-mode {
     background-color: powderblue;
     color: black;
+} */
+
+/* #light-mode-img{
+    box-shadow: 0 0 20px white;
+} */
+
+/* dark mode styling */
+
+.dark-mode{
+    background: url('images/dark\ theme\ bg.avif');
+    color: white;
+}
+
+.dark-mode-btn{
+    color: white;
+}
+
+#dark-mode-img{
+    box-shadow: 0 0 20px white;
 }
 
 #toggle-theme-btn::after{
-    content: "☀️";
+    content: "🌙";
     margin-left: 0.5rem;
     font-size: 1.2rem;
 }

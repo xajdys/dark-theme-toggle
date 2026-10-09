@@ -72,6 +72,21 @@ img {
     box-shadow: 0 0 20px white;
 }
 
+/* dark mode styling */
+
+.dark-mode{
+    background: url('images/dark\ theme\ bg.avif');
+    color: white;
+}
+
+.dark-mode-btn{
+    color: white;
+}
+
+#dark-mode-img{
+    box-shadow: 0 0 20px white;
+}
+
 #toggle-theme-btn::after{
     content: "🌙";
     margin-left: 0.5rem;

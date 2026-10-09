@@ -52,7 +52,7 @@ button:hover {
 img {
     width: 200px;
     border-radius: 20px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 20px rgba(103, 5, 125, 0.5);
 }
 
 .image {
@@ -65,7 +65,13 @@ img {
     border: 1px solid black;
 } */
 
-#light-mode {
+.light-mode {
     background-color: powderblue;
     color: black;
+}
+
+#toggle-theme-btn::after{
+    content: "☀️";
+    margin-left: 0.5rem;
+    font-size: 1.2rem;
 }

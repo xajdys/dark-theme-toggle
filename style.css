@@ -38,6 +38,7 @@ button {
     font-size: 1rem;
     margin: 3rem;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    border: 0.5px solid transparent;
 }
 
 button:hover {
@@ -61,34 +62,28 @@ img {
     gap: 2rem;
 }
 
-/* light mode styling */
-
-.light-mode {
-    background-color: powderblue;
-    color: black;
-}
-
-#light-mode-img{
+.mode-img {
     box-shadow: 0 0 20px white;
 }
 
 /* dark mode styling */
 
-.dark-mode{
-    background: url('images/dark\ theme\ bg.avif');
+.dark-mode {
+    background: url('images/dark\ theme\ bg.avif') center / cover no-repeat;
     color: white;
 }
 
-.dark-mode-btn{
+.dark-mode-btn {
     color: white;
 }
 
-#dark-mode-img{
-    box-shadow: 0 0 20px white;
+/* light mode styling */
+
+.light-mode {
+    background: url("images/light theme bg.avif") center / cover no-repeat;
+    color: black;
 }
 
-#toggle-theme-btn::after{
-    content: "🌙";
-    margin-left: 0.5rem;
-    font-size: 1.2rem;
+.light-mode-btn {
+    color: black;
 }

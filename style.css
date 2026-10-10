@@ -18,6 +18,8 @@ body {
 }
 
 h1 {
+    margin: 0 auto;
+    max-width: 60dvw;
     text-align: center;
     padding: 2rem;
     background-color: hsla(0, 0%, 100%, 0.3);
